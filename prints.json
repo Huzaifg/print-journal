@@ -1,0 +1,61 @@
+{
+  "title": "Huzaifa’s Print Journal",
+  "updated": "2026-09-20",
+  "prints": [
+    {
+      "id": "bed-scraper",
+      "number": "02",
+      "name": "A little tool, made here.",
+      "object": "Bed scraper",
+      "date": "2026-09-20",
+      "category": "Useful things",
+      "description": "The first useful print: a lightweight scraper, with a sloping blade that turned into a lesson about layers.",
+      "material": "White PLA",
+      "settings": [
+        ["Layer height", "0.20 mm"],
+        ["Material", "2.95 g · estimate"],
+        ["Print time", "14 min · estimate"],
+        ["Structure", "2 walls · 15% infill"]
+      ],
+      "estimateNote": "Material and time are from the saved print file, not measurements. Loading and startup purge use extra filament.",
+      "credit": "Model: Bed scraper by JernejP. · Included with the printer.",
+      "notes": [
+        ["Quality", "Sits flat without rocking. The openings look clean, and the underside has a consistent texture from the build plate."],
+        ["Learned", "A sloping surface becomes tiny terraces when printed in layers. At 0.20 mm, those steps are easy to see across the blade."],
+        ["Next time", "Print the same design at 0.10 mm and compare the blade. Keep the material, orientation and physical shell thickness comparable."]
+      ],
+      "photos": [
+        {"file": "scraper-front.jpg", "alt": "White printed scraper held in a hand, showing the stepped blade and open handle", "caption": "The top face · a closer look at the layers"},
+        {"file": "scraper-underside.jpg", "alt": "Underside of the white scraper showing a fine, even build-plate texture", "caption": "The underside · texture transferred from the build plate"}
+      ]
+    },
+    {
+      "id": "first-benchy",
+      "number": "01",
+      "name": "Every adventure needs a boat.",
+      "object": "First Benchy",
+      "date": "2026-09-20",
+      "category": "First experiments",
+      "description": "The little white boat that started it all. Our first finished print, after setup, calibration and learning to load filament.",
+      "material": "White PLA",
+      "settings": [
+        ["Material", "~12 g · owner estimate"],
+        ["Print profile", "Printer’s bundled file"],
+        ["Build plate", "Textured PEI"],
+        ["Feed", "External spool"]
+      ],
+      "estimateNote": "Filament use is an approximate owner estimate. Layer height and print duration have not been verified for this job.",
+      "credit": "Model: 3DBenchy by Creative Tools. · Printed from the printer’s bundled file.",
+      "notes": [
+        ["Quality", "The boat sits flush. Photos show a complete hull and cabin, with a few fine wisps of stringing around the openings."],
+        ["Learned", "Loading is complete when melted filament actually exits the nozzle—not just when the strand reaches the guide tube."],
+        ["Next time", "Keep this boat as a baseline. Inspect fine strands and the roof under consistent lighting before changing settings."]
+      ],
+      "photos": [
+        {"file": "benchy-side.jpg", "alt": "First white Benchy held in a hand, showing the hull, doorway, roof and chimney", "caption": "The first boat · hull and cabin details"},
+        {"file": "benchy-top.jpg", "alt": "Top view of the white Benchy showing the roof, chimney and deck", "caption": "From above · the roof and deck"},
+        {"file": "benchy-bottom.jpg", "alt": "Bottom of the Benchy showing the textured area that contacted the print bed", "caption": "Underneath · checking the first layer"}
+      ]
+    }
+  ]
+}
