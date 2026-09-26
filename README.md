@@ -4,7 +4,7 @@ A small, photo-first journal of real 3D prints, their quality, lessons learned, 
 
 ## Update the journal
 
-1. Add an entry to `prints.json`, newest first. Use an ISO date and stable unique ID. Keep exactly three notes: Quality, Learned, Next time. Credit the model designer; distinguish original designs from downloaded models.
+1. Add an entry to `prints.json`, newest first. Use an ISO date and stable unique ID. Keep exactly three notes: Quality, Learned, Next time. Credit the model designer; distinguish original designs from downloaded models. When the user opts not to supply a photo, use an empty `photos` array: the journal displays a clearly labeled text-only record, never a substitute or invented photograph.
 2. Add reviewed, web-sized photo copies to `docs/images/`. Orient correctly and remove all embedded metadata before publishing. Keep originals outside this repository. Do not retouch defects away: the journal records real results.
 3. Label mass/time as measured, slicer estimates, or owner estimates. Never invent unknown settings or treat planned prints as completed.
 4. Run `python3 build.py` and preview the `docs` directory with a local HTTP server. Check phone and desktop layouts, photo selection, zoom, keyboard navigation and image descriptions.

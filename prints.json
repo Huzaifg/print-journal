@@ -1,7 +1,31 @@
 {
   "title": "Huzaifa’s Print Journal",
-  "updated": "2026-09-20",
+  "updated": "2026-09-26",
   "prints": [
+    {
+      "id": "white-to-gray-benchy",
+      "number": "03",
+      "name": "One boat. Two beginnings.",
+      "object": "White-to-gray Benchy",
+      "date": "2026-09-26",
+      "category": "First experiments",
+      "description": "The last of the white sample became the beginning of another boat. A filament-runout pause let us continue with the new gray PLA.",
+      "material": "White + gray PLA",
+      "settings": [
+        ["Layer height", "0.25 mm"],
+        ["Material", "10.99 g · estimate"],
+        ["Print time", "22 min · estimate"],
+        ["Structure", "2 walls · 10% infill"]
+      ],
+      "estimateNote": "Slicer estimates exclude the extended changeover pause and extra loading/purge material. No photograph was recorded for this print.",
+      "credit": "Model: 3DBenchy by Creative Tools. · Printed from the printer’s bundled file.",
+      "notes": [
+        ["Quality", "Completed successfully; the owner reports that it looks great. No photo inspection or strength test was performed."],
+        ["Learned", "The runout sensor paused at layer 55. After manually loading gray PLA, the same job resumed; compatible PLA colors can bond as successive layers."],
+        ["Next time", "Inspect any restart boundary on functional parts. Use an uninterrupted print when comparing surface finish, so the pause is not another variable."]
+      ],
+      "photos": []
+    },
     {
       "id": "bed-scraper",
       "number": "02",

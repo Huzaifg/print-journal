@@ -21,7 +21,6 @@ def build():
         for photo in photos:
             assert Path(photo["file"]).name == photo["file"]
             assert (PUBLIC / "images" / photo["file"]).is_file()
-        first = photos[0]
         thumbs = "".join(
             f'<button class="thumbnail" type="button" aria-label="View photo {i + 1}: {e(photo["caption"])}" '
             f'aria-pressed="{str(i == 0).lower()}" data-src="images/{e(photo["file"])}" '
@@ -31,16 +30,22 @@ def build():
         )
         settings = "".join(f'<div><dt>{e(k)}</dt><dd>{e(v)}</dd></div>' for k, v in p["settings"])
         notes = "".join(f'<li><span>{e(k)}</span><p>{e(v)}</p></li>' for k, v in p["notes"])
-        cards.append(f'''
-        <article class="print" id="{e(p['id'])}">
-          <div class="photo-column">
+        if photos:
+            first = photos[0]
+            photo_column = f'''
             <button class="main-photo" type="button" aria-label="Enlarge photo of {e(p['object'])}">
               <img src="images/{e(first['file'])}" alt="{e(first['alt'])}" width="961" height="1280" loading="lazy">
               <span class="enlarge" aria-hidden="true">View full photo ↗</span>
             </button>
             <div class="photo-controls"><div class="thumbnails" role="group" aria-label="{e(p['object'])} photos">{thumbs}</div>
             <span class="photo-count">{len(photos)} photographs</span></div>
-            <p class="caption">{e(first['caption'])}</p>
+            <p class="caption">{e(first['caption'])}</p>'''
+        else:
+            photo_column = f'''<div class="field-note"><span class="eyebrow">A note from the workbench</span><span class="field-number">{e(p['number'])}</span><p>{e(p['object'])}</p><span class="caption">Completed · no photograph recorded</span></div>'''
+        cards.append(f'''
+        <article class="print" id="{e(p['id'])}">
+          <div class="photo-column">
+            {photo_column}
           </div>
           <div class="print-details">
             <div class="entry-meta"><span>No. {e(p['number'])} / {e(p['category'])}</span><time datetime="{p['date']}">{date.fromisoformat(p['date']).strftime('%d %b %Y')}</time></div>

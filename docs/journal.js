@@ -3,6 +3,7 @@ const viewerImage = viewer.querySelector('img');
 const viewerCaption = viewer.querySelector('p');
 document.querySelectorAll('.print').forEach(entry => {
   const main = entry.querySelector('.main-photo');
+  if (!main) return;
   const mainImage = main.querySelector('img');
   const caption = entry.querySelector('.caption');
   entry.querySelectorAll('.thumbnail').forEach(button => {
