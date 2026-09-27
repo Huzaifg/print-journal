@@ -3,6 +3,70 @@
   "updated": "2026-09-27",
   "prints": [
     {
+      "id": "controller-fit-frame-v04",
+      "number": "06",
+      "name": "Better seating. More to refine.",
+      "object": "Controller fit frame · v0.4",
+      "date": "2026-09-27",
+      "category": "Original designs",
+      "description": "The revised frame is one fixed piece with mirrored grip cradles and a rear ramp that rises toward USB-C. The owner reports a much better fit at the handles, but only narrow line contact at the upper support.",
+      "material": "Gray PLA Basic",
+      "settings": [
+        [
+          "CAD size",
+          "164 × 99 × 44 mm"
+        ],
+        [
+          "Layer height",
+          "0.20 mm · 0.4 mm nozzle"
+        ],
+        [
+          "Structure",
+          "4 walls · 15% gyroid"
+        ],
+        [
+          "Supports",
+          "None · no brim"
+        ],
+        [
+          "Material",
+          "61.22 g · slicer estimate"
+        ],
+        [
+          "Print time",
+          "2 h 6 min · slicer estimate"
+        ]
+      ],
+      "estimateNote": "The printer reported completion at all 220 layers without errors; supplied photos confirm the physical print. Time and mass are slicer estimates, not measured totals. Photographs show contact regions from oblique angles; exact gaps, controller tilt and contact pressure are not measured.",
+      "credit": "Original model: designed in OpenSCAD by Codex with Huzaifa’s measurements and iterative feedback. Controller: Nintendo Switch 2 Pro Controller. · Printed on the Bambu Lab A1.",
+      "notes": [
+        [
+          "Quality",
+          "The owner reports that the handles now sit pretty well. The upper support still makes narrow line contact, with an apparent gap visible in the photos; other reported problems await clarification."
+        ],
+        [
+          "Learned",
+          "The revised mirrored grips seat better, but correcting a ramp’s direction did not make its flat face match the curved shell. The photographed frame also straddles a mat edge, so retest it on one flat surface."
+        ],
+        [
+          "Next time",
+          "Preserve the improved handles and one-piece design. Confirm contact on fixed shell, check the remaining problems, and measure the rear gap before refining that support’s slope and contour."
+        ]
+      ],
+      "photos": [
+        {
+          "file": "controller-v04-contact-side.jpg",
+          "alt": "Detail of the gray single-piece controller frame, showing the seated grip and narrow contact at the upper support",
+          "caption": "Upper support · narrow contact and a visible gap"
+        },
+        {
+          "file": "controller-v04-contact-angle.jpg",
+          "alt": "Second close view of the printed frame and controller, showing the rear support and the frame crossing the desk-mat edge",
+          "caption": "Second angle · contact and the test surface"
+        }
+      ]
+    },
+    {
       "id": "controller-fit-frame",
       "number": "05",
       "name": "A fit test that changed the design.",
