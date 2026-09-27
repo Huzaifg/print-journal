@@ -1,7 +1,71 @@
 {
   "title": "Huzaifa’s Print Journal",
-  "updated": "2026-09-26",
+  "updated": "2026-09-27",
   "prints": [
+    {
+      "id": "controller-fit-frame",
+      "number": "05",
+      "name": "A fit test that changed the design.",
+      "object": "Switch 2 Pro Controller fit frame",
+      "date": "2026-09-27",
+      "category": "Original designs",
+      "description": "The first printed frame reached its real test: holding the controller. It did not retain it reliably. The owner reports backward slipping; the hand-held photos document the contact areas rather than a stable resting position.",
+      "material": "Gray PLA Basic",
+      "settings": [
+        [
+          "CAD size",
+          "164 × 99 × 44 mm"
+        ],
+        [
+          "Layer height",
+          "0.20 mm · 0.4 mm nozzle"
+        ],
+        [
+          "Structure",
+          "4 walls · 15% gyroid"
+        ],
+        [
+          "Supports",
+          "None · no brim"
+        ],
+        [
+          "Material",
+          "59.09 g · slicer estimate"
+        ],
+        [
+          "Print time",
+          "2 h 2 min · slicer estimate"
+        ]
+      ],
+      "estimateNote": "Printed specimen confirmed by the owner and photos. Date records the fit review. Settings and estimates come from the saved print package; actual weight and duration were not measured. Startup purge can add material. Photo perspective does not establish exact gaps or tilt.",
+      "credit": "Original model: designed in OpenSCAD by Codex with Huzaifa’s measurements and feedback. Controller: Nintendo Switch 2 Pro Controller. · Printed on the Bambu Lab A1.",
+      "notes": [
+        [
+          "Quality",
+          "The printed frame appears intact, but the functional fit failed: the controller slides backward. Photos show uneven seating; exact gaps and dimensional accuracy are unmeasured."
+        ],
+        [
+          "Learned",
+          "Fitting two supports independently to a rough scan introduced a 2.63 mm difference at their centres. Agreement with that scan did not prove correct seating or retention."
+        ],
+        [
+          "Next time",
+          "Test mirrored shallow grip cradles and a rear ramp that rises toward the USB-C end. A removable block and 2 mm spacers are planned for height adjustment; the revision has not been printed."
+        ]
+      ],
+      "photos": [
+        {
+          "file": "controller-frame-side.jpg",
+          "alt": "Side view of a controller and gray fit frame held in a hand, showing the rear support and grip contact",
+          "caption": "Side contact · hand-held view of the failed fit"
+        },
+        {
+          "file": "controller-frame-contact.jpg",
+          "alt": "Close view of the controller grip in the printed frame with a gap beside the curved support",
+          "caption": "Grip contact · inspecting where the shell actually rests"
+        }
+      ]
+    },
     {
       "id": "mouse-bird-heart",
       "number": "04",
