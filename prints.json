@@ -3,6 +3,75 @@
   "updated": "2026-09-27",
   "prints": [
     {
+      "id": "controller-tilt-test",
+      "number": "08",
+      "name": "The tilt that made it settle.",
+      "object": "Controller whole-frame tilt test · v0.6",
+      "date": "2026-09-27",
+      "category": "Original designs",
+      "description": "A rear-foot riser tilts the existing frame and contact cap together by 30°. The owner reports that the controller now settles downward toward the handle supports. This successful trial supplies the geometry for a cleaner, integrated stand.",
+      "material": "Gray PLA Basic",
+      "settings": [
+        [
+          "Riser size",
+          "58 × 54 × 54.41 mm · CAD"
+        ],
+        [
+          "Layer height",
+          "0.20 mm · 0.4 mm nozzle"
+        ],
+        [
+          "Structure",
+          "4 walls · 15% gyroid"
+        ],
+        [
+          "Supports",
+          "None · no brim"
+        ],
+        [
+          "Material",
+          "36.27 g · slicer estimate"
+        ],
+        [
+          "Print time",
+          "1 h 18 min · slicer estimate"
+        ]
+      ],
+      "estimateNote": "Completion and successful forward settling are owner-reported and accompanied by photos of the finished assembly. Time and material are estimates for the riser alone, excluding the earlier frame and cap. Exact contact area and resistance to cable pulls are unmeasured.",
+      "credit": "Original model: designed in OpenSCAD by Codex with Huzaifa’s measurements and iterative feedback. Controller: Nintendo Switch 2 Pro Controller. · Printed on the Bambu Lab A1.",
+      "notes": [
+        [
+          "Quality",
+          "The supplied photos show the completed riser supporting the assembled cradle. The owner reports that forward/downward settling now works; the upper contact could still benefit from a slightly flatter face."
+        ],
+        [
+          "Learned",
+          "Tilting the whole fixture changed the direction it encouraged the controller to move while retaining the existing contact profiles. A useful contact shape and a useful overall orientation are separate design choices."
+        ],
+        [
+          "Next time",
+          "Integrate the successful geometry into one angular, open stand with mirrored handle supports. Test an upper contact about 2° flatter while preserving the overall tilt. The integrated revision is planned, not yet printed."
+        ]
+      ],
+      "photos": [
+        {
+          "file": "controller-riser-side.jpg",
+          "alt": "Close side view of the printed rear-foot riser holding the existing controller frame at an incline",
+          "caption": "30° tilt test · riser and existing frame"
+        },
+        {
+          "file": "controller-riser-contact.jpg",
+          "alt": "Detail of the upper contact cap and handle support under the seated controller",
+          "caption": "Upper contact · a small refinement remains"
+        },
+        {
+          "file": "controller-riser-front.jpg",
+          "alt": "Rear view of the controller seated above the cap and riser, with both handle supports visible",
+          "caption": "Successful seating · reported by the owner"
+        }
+      ]
+    },
+    {
       "id": "controller-contact-cap",
       "number": "07",
       "name": "A small test. A bigger rethink.",
