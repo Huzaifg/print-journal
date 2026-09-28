@@ -3,6 +3,70 @@
   "updated": "2026-09-27",
   "prints": [
     {
+      "id": "controller-contact-cap",
+      "number": "07",
+      "name": "A small test. A bigger rethink.",
+      "object": "Controller upper-contact test cap · v0.5",
+      "date": "2026-09-27",
+      "category": "Original designs",
+      "description": "A small slip-on test cap tried a raised, re-angled upper contact on the existing frame. It printed successfully, but the owner reports that the controller still slides backward and down. The retention experiment failed.",
+      "material": "Gray PLA Basic",
+      "settings": [
+        [
+          "Cap size",
+          "38.6 × 26.6 × 27.81 mm · CAD"
+        ],
+        [
+          "Layer height",
+          "0.20 mm · 0.4 mm nozzle"
+        ],
+        [
+          "Structure",
+          "4 walls · 15% gyroid"
+        ],
+        [
+          "Supports",
+          "None · no brim"
+        ],
+        [
+          "Material",
+          "9.48 g · slicer estimate"
+        ],
+        [
+          "Print time",
+          "32 min · slicer estimate"
+        ]
+      ],
+      "estimateNote": "The printer reported completion at 133 layers without errors. Time and material are slicer estimates, not measured totals. The owner reports the sliding; the photographs show the installed cap, with a hand present, and do not measure force, contact pressure or exact gaps.",
+      "credit": "Original model: designed in OpenSCAD by Codex with Huzaifa’s measurements and iterative feedback. Controller: Nintendo Switch 2 Pro Controller. · Printed on the Bambu Lab A1.",
+      "notes": [
+        [
+          "Quality",
+          "The printed cap appears intact in the supplied photos, but it does not retain the controller: backward and downward slipping persists. Cap seating and exact contact area remain unmeasured."
+        ],
+        [
+          "Learned",
+          "A taller post does not guarantee a forward seating force. The cap’s main face still descends toward USB-C, and the front lips cannot catch motion in the opposite direction. Matching a contour is not the same as providing retention."
+        ],
+        [
+          "Next time",
+          "Test tilting the whole existing cradle before printing again. Develop mirrored handle pockets with front and rear stops, keeping upward removal and charging access clear. This redesign is planned, not printed."
+        ]
+      ],
+      "photos": [
+        {
+          "file": "controller-cap-contact.jpg",
+          "alt": "Close view of the gray test cap installed over the existing upper support, beneath the controller shell",
+          "caption": "Installed cap · contact detail"
+        },
+        {
+          "file": "controller-cap-frame.jpg",
+          "alt": "Side view of the controller, test cap and original handle cradle, with a hand beside the stand",
+          "caption": "Fit test · backward slipping reported by the owner"
+        }
+      ]
+    },
+    {
       "id": "controller-fit-frame-v04",
       "number": "06",
       "name": "Better seating. More to refine.",
