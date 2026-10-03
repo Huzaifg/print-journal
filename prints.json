@@ -1,7 +1,60 @@
 {
   "title": "Huzaifa’s Print Journal",
-  "updated": "2026-09-27",
+  "updated": "2026-10-03",
   "prints": [
+    {
+      "id": "controller-chevron-v08",
+      "number": "09",
+      "name": "One piece. A decent fit.",
+      "object": "Controller chevron stand · v0.8",
+      "date": "2026-10-03",
+      "category": "Original designs",
+      "description": "The successful frame, contact-cap and tilt-riser experiment became one fixed angular stand with mirrored handle supports and an open chevron base. The owner reports that the print went well and the controller now sits decently well. Photos will follow.",
+      "material": "PLA Basic",
+      "settings": [
+        [
+          "CAD size",
+          "160.40 × 102.19 × 76.44 mm"
+        ],
+        [
+          "Layer height",
+          "0.20 mm · 0.4 mm nozzle"
+        ],
+        [
+          "Structure",
+          "4 walls · 15% gyroid"
+        ],
+        [
+          "Supports",
+          "None · no brim"
+        ],
+        [
+          "Material",
+          "71.51 g · slicer estimate"
+        ],
+        [
+          "Print time",
+          "2 h 41 min · slicer estimate"
+        ]
+      ],
+      "estimateNote": "Date shown is the owner’s result-report date; the exact completion date and actual print time are unrecorded. Completion and decent seating are owner-reported. Photos, exact contact area and resistance to cable pulls are not yet documented. Time and mass are slicer estimates, not measured totals.",
+      "credit": "Original model: designed in OpenSCAD by Codex with Huzaifa’s measurements and iterative feedback. Controller: Nintendo Switch 2 Pro Controller. · Printed on the Bambu Lab A1.",
+      "notes": [
+        [
+          "Quality",
+          "The owner reports that the print went well and the controller sits decently well. Surface finish and detailed contact cannot yet be assessed from photos."
+        ],
+        [
+          "Learned",
+          "The working assembly’s mirrored contact layout survived integration into one piece. Lowering all contact centres equally by 8 mm preserved their relative positions; the upper face separately received the reviewed 2° change."
+        ],
+        [
+          "Next time",
+          "Review the promised photos for grip seating, upper-shell contact and clearances. Check cable access and response to ordinary handling before deciding whether another fit refinement is worthwhile."
+        ]
+      ],
+      "photos": []
+    },
     {
       "id": "controller-tilt-test",
       "number": "08",
