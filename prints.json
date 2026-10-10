@@ -1,7 +1,79 @@
 {
   "title": "Huzaifa’s Print Journal",
-  "updated": "2026-10-03",
+  "updated": "2026-10-10",
   "prints": [
+    {
+      "id": "stardock-starship-pen-stand",
+      "number": "10",
+      "name": "A starship, caught on the desk.",
+      "object": "Stardock · Starship-inspired pen stand",
+      "date": "2026-10-10",
+      "category": "Original designs",
+      "description": "From a cute rocket to a slender starship: a pointed nose and contrasting curved shield give the silhouette its character, while a rear opening keeps two pens accessible. Mirrored hull ledges rest on fixed lavender catch arms. Two white lattice panels print flat and assemble into a tower. Four separate color batches avoid repeated color changes within a print, at the cost of more assembly and glued decorations.",
+      "material": "White, green, lavender & pink PLA",
+      "settings": [
+        [
+          "Footprint",
+          "160 × 110 mm · CAD"
+        ],
+        [
+          "Height",
+          "194 mm tower · 166 mm ship · CAD"
+        ],
+        [
+          "Layer height",
+          "0.20 mm · 0.4 mm nozzle"
+        ],
+        [
+          "Structure",
+          "4 walls · 15% gyroid"
+        ],
+        [
+          "Print set",
+          "13 parts · 4 color batches"
+        ],
+        [
+          "Shield",
+          "1.2 mm nominal shell · 8 mm brim"
+        ],
+        [
+          "Material",
+          "235.16 g · summed slicer estimates"
+        ],
+        [
+          "Print time",
+          "9 h 47 min · summed slicer estimates"
+        ]
+      ],
+      "estimateNote": "Date marks the assembled-photo report. Totals cover the four final plates, including generated supports and brims; they exclude the earlier 30.74 g joint test and extra startup purge. Actual mass and elapsed time are unmeasured. Four printed fins are not visible in these assembly views. Photos show two pens at rest, not a measured handling or stability test.",
+      "credit": "Original model: designed in OpenSCAD by Codex with Huzaifa’s direction and iterative feedback. Inspired by Starship and its catch tower; a stylized desk object, not a scale replica. Photos by Huzaifa. · Printed on the Bambu Lab A1.",
+      "notes": [
+        [
+          "Quality",
+          "The owner calls it “glorious.” Photos show the assembled tower, ship held above the base, two pens in the rear bay, and the pink nameplate and engine detail. Layer lines and a vertical line on the green shield remain visible. Exact joint gaps and glue placement are unmeasured."
+        ],
+        [
+          "Learned",
+          "The small connector test supported keeping the joint geometry, but its supported hull-ledge underside needed cleanup. In slicing, “supports enabled” was insufficient: build-plate-only supports missed the shield opening. Allowing supports on the model produced the required scaffold. Review actual toolpaths and keep bearing faces flat during cleanup; appearance, contact fit and retention are separate checks."
+        ],
+        [
+          "Next time",
+          "Keep the rear pen bay and mirrored catch contacts. Check repeated pen insertion/removal and gentle knocks on a flat surface. Trial support-interface changes on another small ledge sample before a full reprint; document the four fins once fitted. These are follow-up checks, not reported failures."
+        ]
+      ],
+      "photos": [
+        {
+          "file": "stardock-tower-side.jpg",
+          "alt": "Side view of the two white lattice tower panels, lavender cap and arm carriage, and ship suspended over the white base",
+          "caption": "Tower assembly · two flat-printed lattice panels"
+        },
+        {
+          "file": "stardock-engine-detail.jpg",
+          "alt": "Close-up of the green shield with visible layer lines and a vertical line, a pink engine detail, and the white base below",
+          "caption": "Close detail · surface texture and engine clearance"
+        }
+      ]
+    },
     {
       "id": "controller-chevron-v08",
       "number": "09",
