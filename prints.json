@@ -1,7 +1,75 @@
 {
   "title": "Huzaifa’s Print Journal",
-  "updated": "2026-10-10",
+  "updated": "2026-10-11",
   "prints": [
+    {
+      "id": "tiny-spiral-passthrough",
+      "number": "11",
+      "name": "A tiny spiral, with a little friction.",
+      "object": "Tiny Spiral Passthrough Fidget",
+      "date": "2026-10-11",
+      "category": "Downloaded designs",
+      "description": "A lilac spiral passes through an ivory ring with a twisting slide. Sean Liang designed it as a small capsule toy. The original two components were separated without resizing, then printed sequentially: short ivory ring first, tall lilac spiral second. That gave two contrasting colors with just one filament change.",
+      "material": "Ivory White & Lilac Purple PLA Matte",
+      "settings": [
+        [
+          "Assembled size",
+          "27 × 27 × 45 mm · source mesh"
+        ],
+        [
+          "Layer height",
+          "0.16 mm · 0.4 mm nozzle"
+        ],
+        [
+          "Structure",
+          "3 walls · 15% gyroid"
+        ],
+        [
+          "Print order",
+          "2 separate parts · 1 color change"
+        ],
+        [
+          "Supports / brim",
+          "None / none"
+        ],
+        [
+          "Material",
+          "8.33 g · slicer estimate"
+        ],
+        [
+          "Print time",
+          "58 min 16 sec · slicer estimate"
+        ]
+      ],
+      "estimateNote": "Date marks the photo and handling report; the print finished October 10 at all 343 layer events without reported errors. Actual mass and duration are unmeasured; startup purge may add material. Photos are cropped to the fidget and metadata stripped, with no retouching. The desk photograph clips the spiral tip in the original.",
+      "credit": "Model: Sean Liang / Starry Odyssey (seanliang00), Tiny Spiral Passthrough Fidget · CC BY-SA 4.0 · thingiverse.com/thing:7354874. Original geometry preserved at 100% scale; parts separated for printing. Photos by Huzaifa. Printed on the Bambu Lab A1.",
+      "notes": [
+        [
+          "Quality",
+          "The owner says it is good and works, though the slide is not the smoothest and makes a slight sound. Photos show the assembled ivory ring and lilac spiral, with visible texture on the spiral. Sliding force and noise were not measured."
+        ],
+        [
+          "Learned",
+          "The original clearance allows this print to function, but working fit does not guarantee a smooth feel. Layer ridges or a seam rubbing against the ring are possible causes of the sound; the photos cannot isolate which surface is responsible."
+        ],
+        [
+          "Next time",
+          "First check whether resistance repeats at one spot or is uniform along the slide. If another print is worthwhile, compare 0.12 mm layers with this 0.16 mm specimen while retaining the original geometry and material; expect longer printing. This is a planned experiment, not a proven fix."
+        ]
+      ],
+      "photos": [
+        {
+          "file": "tiny-spiral-in-hand.jpg",
+          "alt": "Lilac spiral fidget held between fingers, with the ivory ring partway along the spiral and printed surface texture visible",
+          "caption": "In hand · ring partway along the spiral"
+        },
+        {
+          "file": "tiny-spiral-desk.jpg",
+          "alt": "Lilac spiral standing through an ivory ring on a black wave-patterned mat; the spiral tip is outside the original photograph",
+          "caption": "On the desk · ivory ring and lilac surface detail"
+        }
+      ]
+    },
     {
       "id": "stardock-starship-pen-stand",
       "number": "10",
