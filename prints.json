@@ -1,7 +1,70 @@
 {
   "title": "Huzaifa’s Print Journal",
-  "updated": "2026-10-11",
+  "updated": "2026-10-17",
   "prints": [
+    {
+      "id": "origami-heart-box",
+      "number": "12",
+      "name": "A folding heart, coming together.",
+      "object": "Origami Heart Box",
+      "date": "2026-10-17",
+      "category": "Downloaded designs",
+      "description": "Sean Liang’s origami-inspired heart box, printed at original size in Sakura Pink. Two folding lid halves and the box/fittings were made as two separate high-quality print jobs. Assembly is underway; the handle connection is now reported to fit.",
+      "material": "Sakura Pink PLA Matte",
+      "settings": [
+        [
+          "Box body",
+          "141.36 × 120.68 × 45 mm · source mesh"
+        ],
+        [
+          "Layer height",
+          "0.12 mm · 0.4 mm nozzle"
+        ],
+        [
+          "Structure",
+          "3 walls · 15% gyroid"
+        ],
+        [
+          "Outer / top speed",
+          "30 mm/s"
+        ],
+        [
+          "Print set",
+          "11 printed pieces · 4 filament pins"
+        ],
+        [
+          "Material",
+          "129.17 g · summed slicer estimates"
+        ],
+        [
+          "Print time",
+          "14 h 5 min 37 sec · summed slicer estimates"
+        ]
+      ],
+      "estimateNote": "Date marks the assembly photo and fit report. Totals cover the two selected 0.12 mm print jobs; actual time and mass are unmeasured. Cooling, assembly and extra startup purge may add time or material. The photograph is cropped and metadata stripped, without retouching; it documents the initial seating concern, before the owner reported resolution.",
+      "credit": "Model: Sean Liang / Starry Odyssey (seanliang00), Origami Heart Box · CC BY-SA 4.0 · starryodyssey.com/design/origami-heart-box. Original geometry at 100% scale. Photo by Huzaifa. Printed on the Bambu Lab A1.",
+      "notes": [
+        [
+          "Quality",
+          "All printed parts are owner-reported complete. During assembly the handle flange initially appeared to catch the rim; the owner then reported that it goes in. The photograph was taken before that resolution and shows relief detail, layer texture and a loose strand. Full opening/closing smoothness is not yet reported."
+        ],
+        [
+          "Learned",
+          "The folding joints use four pieces of 1.75 mm filament as axles, with printed clips and a separate pin/knob for the other connections. An initial seating difficulty does not establish a design fault; the exact adjustment that resolved this one is unknown."
+        ],
+        [
+          "Next time",
+          "Gently cycle the lid fully open and closed, checking flange clearance and free motion at each joint. Record an overall assembled photo and the feel of the mechanism before deciding whether any fit adjustment is needed."
+        ]
+      ],
+      "photos": [
+        {
+          "file": "origami-heart-handle-fit.jpg",
+          "alt": "Close-up of the pink heart box during assembly, showing the handle pin, overlapping lid eyes and nearby rim before the owner resolved the seating difficulty",
+          "caption": "Handle connection during assembly · seating later resolved by the owner"
+        }
+      ]
+    },
     {
       "id": "tiny-spiral-passthrough",
       "number": "11",

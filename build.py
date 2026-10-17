@@ -38,7 +38,7 @@ def build():
               <span class="enlarge" aria-hidden="true">View full photo ↗</span>
             </button>
             <div class="photo-controls"><div class="thumbnails" role="group" aria-label="{e(p['object'])} photos">{thumbs}</div>
-            <span class="photo-count">{len(photos)} photographs</span></div>
+            <span class="photo-count">{len(photos)} {'photograph' if len(photos) == 1 else 'photographs'}</span></div>
             <p class="caption">{e(first['caption'])}</p>'''
         else:
             photo_column = f'''<div class="field-note"><span class="eyebrow">A note from the workbench</span><span class="field-number">{e(p['number'])}</span><p>{e(p['object'])}</p><span class="caption">Completed · no photograph recorded</span></div>'''
