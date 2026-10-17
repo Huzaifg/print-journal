@@ -5,11 +5,11 @@
     {
       "id": "origami-heart-box",
       "number": "12",
-      "name": "A folding heart, coming together.",
+      "name": "A little heart, folded in pink.",
       "object": "Origami Heart Box",
       "date": "2026-10-17",
       "category": "Downloaded designs",
-      "description": "Sean Liang’s origami-inspired heart box, printed at original size in Sakura Pink. Two folding lid halves and the box/fittings were made as two separate high-quality print jobs. Assembly is underway; the handle connection is now reported to fit.",
+      "description": "Sean Liang’s origami-inspired heart box, assembled at original size in Sakura Pink. The patterned folding lids and textured box were printed in two separate high-quality jobs; the finished assembly is shown closed from three angles.",
       "material": "Sakura Pink PLA Matte",
       "settings": [
         [
@@ -41,27 +41,37 @@
           "14 h 5 min 37 sec · summed slicer estimates"
         ]
       ],
-      "estimateNote": "Date marks the assembly photo and fit report. Totals cover the two selected 0.12 mm print jobs; actual time and mass are unmeasured. Cooling, assembly and extra startup purge may add time or material. The photograph is cropped and metadata stripped, without retouching; it documents the initial seating concern, before the owner reported resolution.",
-      "credit": "Model: Sean Liang / Starry Odyssey (seanliang00), Origami Heart Box · CC BY-SA 4.0 · starryodyssey.com/design/origami-heart-box. Original geometry at 100% scale. Photo by Huzaifa. Printed on the Bambu Lab A1.",
+      "estimateNote": "Date marks the assembled-photo and fit report. Totals cover the two selected 0.12 mm print jobs; actual time and mass are unmeasured. Cooling, assembly and extra startup purge may add time or material. Photos are cropped around the box and metadata stripped, without retouching. The monitor is excluded from the handheld photo.",
+      "credit": "Model: Sean Liang / Starry Odyssey (seanliang00), Origami Heart Box · CC BY-SA 4.0 · starryodyssey.com/design/origami-heart-box. Original geometry at 100% scale. Photos by Huzaifa. Printed on the Bambu Lab A1.",
       "notes": [
         [
           "Quality",
-          "All printed parts are owner-reported complete. During assembly the handle flange initially appeared to catch the rim; the owner then reported that it goes in. The photograph was taken before that resolution and shows relief detail, layer texture and a loose strand. Full opening/closing smoothness is not yet reported."
+          "Photos show the assembled pink box with both lids closed, the handle fitted, and the lid and wall patterns visible. Layer texture remains visible. Full opening/closing smoothness has not yet been reported."
         ],
         [
           "Learned",
-          "The folding joints use four pieces of 1.75 mm filament as axles, with printed clips and a separate pin/knob for the other connections. An initial seating difficulty does not establish a design fault; the exact adjustment that resolved this one is unknown."
+          "Four pieces of 1.75 mm filament act as hinge axles for the folding lids. The initial handle-seating concern was resolved during assembly; no geometry change was reported."
         ],
         [
           "Next time",
-          "Gently cycle the lid fully open and closed, checking flange clearance and free motion at each joint. Record an overall assembled photo and the feel of the mechanism before deciding whether any fit adjustment is needed."
+          "Check a few gentle full opening/closing cycles for free hinge motion and handle clearance, then record the mechanism open."
         ]
       ],
       "photos": [
         {
-          "file": "origami-heart-handle-fit.jpg",
-          "alt": "Close-up of the pink heart box during assembly, showing the handle pin, overlapping lid eyes and nearby rim before the owner resolved the seating difficulty",
-          "caption": "Handle connection during assembly · seating later resolved by the owner"
+          "file": "origami-heart-front.jpg",
+          "alt": "Assembled Sakura Pink heart box on a desk, viewed from the front with closed patterned lids and the round handle at its point",
+          "caption": "Assembled · closed lids and handle, front view"
+        },
+        {
+          "file": "origami-heart-angle.jpg",
+          "alt": "Angled view of the assembled pink heart box showing the curved sides, geometric wall relief and patterned folding lids",
+          "caption": "Angled view · curved sides and geometric relief"
+        },
+        {
+          "file": "origami-heart-in-hand.jpg",
+          "alt": "Pink heart box held in a hand, showing the full heart-shaped patterned lid and four folding hinge lines",
+          "caption": "In hand · the complete heart-shaped lid"
         }
       ]
     },
