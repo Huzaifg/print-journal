@@ -102,8 +102,8 @@
           "2 separate parts · 1 color change"
         ],
         [
-          "Supports / brim",
-          "None / none"
+          "Generated supports / brim",
+          "None / none; original ring includes a modeled centre bar"
         ],
         [
           "Material",
@@ -123,11 +123,11 @@
         ],
         [
           "Learned",
-          "The original clearance allows this print to function, but working fit does not guarantee a smooth feel. Layer ridges or a seam rubbing against the ring are possible causes of the sound; the photos cannot isolate which surface is responsible."
+          "In an October 17 follow-up, the owner reported that removing the solid crossbar inside the sliding ring makes its motion rough. Source inspection found a 2 mm-thick bar built into the ring, so disabling generated supports does not remove it. Cutting damage is a possible cause of the roughness, not a confirmed diagnosis."
         ],
         [
           "Next time",
-          "First check whether resistance repeats at one spot or is uniform along the slide. If another print is worthwhile, compare 0.12 mm layers with this 0.16 mm specimen while retaining the original geometry and material; expect longer printing. This is a planned experiment, not a proven fix."
+          "Test a replacement ring with the modeled centre bar omitted, retaining the original outer dimensions, curved guide shape and 0.16 mm process. This avoids cutting inside the opening and isolates one design change. The revision is prepared but has not yet been printed or physically tested."
         ]
       ],
       "photos": [
