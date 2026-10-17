@@ -3,6 +3,69 @@
   "updated": "2026-10-17",
   "prints": [
     {
+      "id": "loop-link-fabric-first-attempt",
+      "number": "13",
+      "name": "A fabric sample that came loose.",
+      "object": "Loop Link Fidget Fabric · failed first attempt",
+      "date": "2026-10-17",
+      "category": "Downloaded designs",
+      "description": "The first 8×8 Loop Link sample in lilac, printed at the creator’s original scale. Several links detached or moved and extrusion tangled around the damaged area. The job was stopped before completion; it is not a usable fabric sample.",
+      "material": "Lilac Purple PLA Matte",
+      "settings": [
+        [
+          "Nominal size",
+          "89.8 × 89.8 × 4 mm · source mesh"
+        ],
+        [
+          "Layer height",
+          "0.16 mm · 0.20 mm first layer"
+        ],
+        [
+          "Structure",
+          "3 walls · 15% gyroid"
+        ],
+        [
+          "Supports / brim",
+          "None / none"
+        ],
+        [
+          "First-layer wall speed",
+          "20 mm/s"
+        ],
+        [
+          "Full-job estimate",
+          "16.51 g · 2 h 35 min 6 sec"
+        ],
+        [
+          "Stopped at",
+          "Layer 9 of 25 · printer status"
+        ]
+      ],
+      "estimateNote": "Time and material are estimates for the complete planned print, not the failed attempt’s consumption. Actual elapsed time and mass are unmeasured. The owner’s photograph records the failure before stopping; the public copy has metadata removed, with defects preserved.",
+      "credit": "Model: Sean Liang / Starry Odyssey (seanliang00), Loop Link Fidget Fabric · CC BY-SA 4.0 · starryodyssey.com/design/loop-link-fidget-fabric. Original 8×8 geometry at 100% scale. Photo by Huzaifa. Printed on the Bambu Lab A1.",
+      "notes": [
+        [
+          "Quality",
+          "Failed. The photo shows displaced links, missing portions of the grid and tangled filament. The printer was still running at layer 9/25; stopping was confirmed and both heater targets turned off."
+        ],
+        [
+          "Learned",
+          "The model starts on 368 small contact pads. A valid toolpath and a reported first layer do not prove adhesion. Loss of adhesion is the leading explanation, but the photo cannot establish whether lifting or a nozzle catch happened first. Plate contamination is not proven."
+        ],
+        [
+          "Next time",
+          "Clean the cooled plate, inspect for loose plastic around the nozzle, and begin with a 3×3 patch at the original link size—about 3.3 cm square. Visually check adhesion before a larger print. This smaller experiment is proposed, not yet printed."
+        ]
+      ],
+      "photos": [
+        {
+          "file": "loop-link-failed-first-attempt.jpg",
+          "alt": "Failed lilac Loop Link fabric on the textured printer plate, with displaced links, missing grid sections and tangled filament beneath the print head",
+          "caption": "Failed first attempt · displaced links and tangled extrusion"
+        }
+      ]
+    },
+    {
       "id": "origami-heart-box",
       "number": "12",
       "name": "A little heart, folded in pink.",
