@@ -46,15 +46,15 @@
       "notes": [
         [
           "Quality",
-          "The original coaster has fine stringing and local tangled or incomplete links, confirmed damaged before removal. A later sacrificial diagnostic was also reported broken on the plate and was cancelled during layer 10. Neither is an accepted coaster."
+          "The original coaster has fine stringing and local tangled or incomplete links. A later diagnostic was cancelled during layer 10 after damage was reported by layer 8. The owner confirms its feet stayed attached while upper pieces broke. Neither is an accepted coaster."
         ],
         [
           "Learned",
-          "The diagnostic was already damaged by layer 8, before its first crossbars and extra cooling at layer 10. That cooling change cannot prevent the earlier failure. Local lifting or snagging is a working hypothesis; the exact trigger and fracture location remain unconfirmed."
+          "The attached feet shift attention from bed adhesion to failure above the bases. Connector outer posts are only 0.8 mm thick and begin at layer 6. Weak bonding or nozzle contact remain hypotheses; the exact fracture location is unconfirmed. Extra crossbar cooling at layer 10 comes too late for this earlier damage."
         ],
         [
           "Next time",
-          "Distinguish loose feet from upper pieces broken above attached feet. Test early-layer adhesion before another full-height print. Consider fewer, larger links with broader permanent feet at the same coaster size; preserve moving clearances. This redesign is planned, not validated."
+          "Test reinforcement of the thin upper sections while preserving moving gaps and keeping print settings fixed. Inspect through the post and crossbar stages before another full coaster. If layers are separating, compare 220°C against 215°C separately for bonding versus stringing. These are planned experiments."
         ]
       ],
       "photos": [
