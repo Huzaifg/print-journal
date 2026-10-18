@@ -1,7 +1,75 @@
 {
   "title": "Huzaifa’s Print Journal",
-  "updated": "2026-10-17",
+  "updated": "2026-10-18",
   "prints": [
+    {
+      "id": "loop-link-coaster-first-result",
+      "number": "16",
+      "name": "The larger mat needs another revision.",
+      "object": "Loop Link coaster · 9×9 prototype",
+      "date": "2026-10-18",
+      "category": "Modified designs",
+      "description": "The accepted small sample became a 10.6 cm coaster by repeating the same links. The larger print has localized damaged links and tangled plastic, with fine threads across the mat. The owner confirms the damage was already present on the plate.",
+      "material": "Lilac Purple PLA Matte",
+      "settings": [
+        [
+          "Nominal size",
+          "106 × 106 × 5.2 mm · CAD"
+        ],
+        [
+          "Structure",
+          "81 main links + 144 connectors"
+        ],
+        [
+          "Layer height",
+          "0.16 mm · 0.20 mm first layer"
+        ],
+        [
+          "Nozzle / bed",
+          "220°C first layer, then 215°C / 65°C · sliced targets"
+        ],
+        [
+          "Outer / inner walls",
+          "30 / 40 mm/s · speed limits"
+        ],
+        [
+          "Supports / brim",
+          "None / none"
+        ],
+        [
+          "Slicer estimate",
+          "27.35 g · 6 h 10 min"
+        ]
+      ],
+      "estimateNote": "Physical result documented by two owner photographs and feedback. Actual time and mass are unmeasured; printer completion was not independently checked. Photos show the outcome, not the sequence of failure. Thermal performance and mug stability remain untested.",
+      "credit": "Derived from Loop Link Fidget Fabric by Sean Liang / Starry Odyssey (seanliang00) · CC BY-SA 4.0 · starryodyssey.com/design/loop-link-fidget-fabric. Modified geometry prepared with Codex: broader feet, chamfered flat-bottomed bars, sloped hole roofs, increased pitch and thickness. This version repeats those links in a larger grid. Printed on the Bambu Lab A1.",
+      "notes": [
+        [
+          "Quality",
+          "Fine stringing and several areas of tangled extrusion or incomplete links are visible. The owner reports major flaws already present on the plate. This prototype is not accepted as a finished coaster."
+        ],
+        [
+          "Learned",
+          "A better 3×3 sample did not establish reliability across 225 parts. Local detachment or failed spans remain possible. The first crossbar layer also uses mixed cooling for its centre fill; that is a testable process weakness, not a confirmed cause."
+        ],
+        [
+          "Next time",
+          "Use a smaller diagnostic patch and observe the first feet and crossbar layers. Test consistent cooling across the crossbars while retaining the 215°C target and link geometry. Establish intact links before another full coaster; drying remains a separate stringing experiment."
+        ]
+      ],
+      "photos": [
+        {
+          "file": "loop-link-coaster-flaws-01.jpg",
+          "alt": "Close-up of the lilac linked coaster with fine strings, localized tangled plastic and damaged-looking links.",
+          "caption": "The larger mat: fine stringing and several local areas of print damage."
+        },
+        {
+          "file": "loop-link-coaster-flaws-02.jpg",
+          "alt": "Lilac linked coaster held at the edge, showing incomplete links and a clump of extruded plastic near the lower edge.",
+          "caption": "A second angle on the damaged area. The owner confirms these flaws were present before removal."
+        }
+      ]
+    },
     {
       "id": "loop-link-fabric-215-test",
       "number": "15",
