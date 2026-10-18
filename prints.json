@@ -46,15 +46,15 @@
       "notes": [
         [
           "Quality",
-          "Fine stringing and several areas of tangled extrusion or incomplete links are visible. The owner reports major flaws already present on the plate. This prototype is not accepted as a finished coaster."
+          "The original coaster has fine stringing and local tangled or incomplete links, confirmed damaged before removal. A later sacrificial diagnostic was also reported broken on the plate and was cancelled during layer 10. Neither is an accepted coaster."
         ],
         [
           "Learned",
-          "A better 3×3 sample did not establish reliability across 225 parts. Local detachment or failed spans remain possible. The first crossbar layer also uses mixed cooling for its centre fill; that is a testable process weakness, not a confirmed cause."
+          "The diagnostic was already damaged by layer 8, before its first crossbars and extra cooling at layer 10. That cooling change cannot prevent the earlier failure. Local lifting or snagging is a working hypothesis; the exact trigger and fracture location remain unconfirmed."
         ],
         [
           "Next time",
-          "Use a smaller diagnostic patch and observe the first feet and crossbar layers. Test consistent cooling across the crossbars while retaining the 215°C target and link geometry. Establish intact links before another full coaster; drying remains a separate stringing experiment."
+          "Distinguish loose feet from upper pieces broken above attached feet. Test early-layer adhesion before another full-height print. Consider fewer, larger links with broader permanent feet at the same coaster size; preserve moving clearances. This redesign is planned, not validated."
         ]
       ],
       "photos": [
