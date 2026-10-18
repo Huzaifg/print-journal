@@ -3,6 +3,63 @@
   "updated": "2026-10-17",
   "prints": [
     {
+      "id": "loop-link-fabric-215-test",
+      "number": "15",
+      "name": "Five degrees cooler. A better fabric.",
+      "object": "Loop Link fabric · 215°C comparison",
+      "date": "2026-10-17",
+      "category": "Modified designs",
+      "description": "The same revised 3×3 patch, with the nozzle target reduced from 220°C to 215°C after the first layer. The owner reports a much better result and is ready to try a coaster-sized version. No photograph has been recorded for this sample yet.",
+      "material": "Lilac Purple PLA Matte",
+      "settings": [
+        [
+          "Nominal size",
+          "34 × 34 × 5.2 mm · CAD"
+        ],
+        [
+          "Structure",
+          "9 main links + 12 connectors"
+        ],
+        [
+          "Layer height",
+          "0.16 mm · 0.20 mm first layer"
+        ],
+        [
+          "Nozzle / bed",
+          "220°C first layer, then 215°C / 65°C"
+        ],
+        [
+          "Outer / inner walls",
+          "30 / 40 mm/s · unchanged limits"
+        ],
+        [
+          "Supports / brim",
+          "None / none"
+        ],
+        [
+          "Slicer estimate",
+          "2.86 g · 45 min 5 sec"
+        ]
+      ],
+      "estimateNote": "Completion and improvement are owner-reported, with completion also confirmed by printer status. Time and material retain the earlier slicer estimate because motion and extrusion commands were preserved; actual time and mass are unmeasured. Temperature ranges below are periodic samples, not continuous telemetry. No photo or quantified strength test was supplied.",
+      "credit": "Derived from Loop Link Fidget Fabric by Sean Liang / Starry Odyssey (seanliang00) · CC BY-SA 4.0 · starryodyssey.com/design/loop-link-fidget-fabric. Modified geometry prepared with Codex: broader feet, chamfered flat-bottomed bars, sloped hole roofs, increased pitch and thickness. Printed on the Bambu Lab A1.",
+      "notes": [
+        [
+          "Quality",
+          "Owner reports “much much better” and accepts the result as a basis for a larger print. Improvement is qualitative; zero stringing and joint strength have not been established."
+        ],
+        [
+          "Learned",
+          "Only the nozzle target after layer 1 changed; geometry, extrusion paths, speeds and retraction were preserved. The improvement supports 215°C for this combination. In 26 printing samples, the nozzle read 214.8–215.3°C and the bed 64.9–65.1°C, with the intended targets and no reported errors."
+        ],
+        [
+          "Next time",
+          "Prepare a 10.6 cm square coaster by repeating the same links at their tested size. Check larger-area adhesion and mug stability. Open mesh will not catch spills; PLA heat resistance limits hot-mug use, so assess a cork contact surface before regular use."
+        ]
+      ],
+      "photos": []
+    },
+    {
       "id": "loop-link-fabric-revised-sample",
       "number": "14",
       "name": "Better links. A few cobwebs.",
@@ -41,7 +98,7 @@
           "2.86 g · 45 min 5 sec"
         ]
       ],
-      "estimateNote": "Completion and improvement are owner-reported. Actual time and mass are unmeasured. No photo or quantified movement/strength test has been supplied. The temperature adjustment below is a proposed experiment, not a completed print.",
+      "estimateNote": "Completion and improvement are owner-reported. Actual time and mass are unmeasured. No photo or quantified movement/strength test was supplied. The subsequent 215°C comparison is recorded in its own entry.",
       "credit": "Derived from Loop Link Fidget Fabric by Sean Liang / Starry Odyssey (seanliang00) · CC BY-SA 4.0 · starryodyssey.com/design/loop-link-fidget-fabric. Modified geometry prepared with Codex: broader feet, chamfered flat-bottomed bars, sloped hole roofs, increased pitch and thickness. Printed on the Bambu Lab A1.",
       "notes": [
         [
@@ -54,7 +111,7 @@
         ],
         [
           "Next time",
-          "Keep geometry and speeds unchanged. Test 215°C after the 220°C first layer, with the bed still at 65°C; compare stringing and joint strength. If needed, assess filament moisture and retraction separately. No further print has been started."
+          "Follow-up: the same toolpaths were printed with a 215°C nozzle target after the 220°C first layer. The owner reports a much better result; the separate temperature-comparison entry records the outcome."
         ]
       ],
       "photos": []
