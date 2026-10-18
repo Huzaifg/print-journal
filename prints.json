@@ -3,6 +3,63 @@
   "updated": "2026-10-17",
   "prints": [
     {
+      "id": "loop-link-fabric-revised-sample",
+      "number": "14",
+      "name": "Better links. A few cobwebs.",
+      "object": "Loop Link fabric · revised 3×3 prototype",
+      "date": "2026-10-17",
+      "category": "Modified designs",
+      "description": "A smaller, rebuilt Loop Link sample with broader feet, flat-bottomed bars and sloped connector roofs. The owner reports a much better print, with fine cobweb-like threads still appearing between links. No photograph has been recorded for this sample yet.",
+      "material": "Lilac Purple PLA Matte",
+      "settings": [
+        [
+          "Nominal size",
+          "34 × 34 × 5.2 mm · CAD"
+        ],
+        [
+          "Structure",
+          "9 main links + 12 connectors"
+        ],
+        [
+          "Layer height",
+          "0.16 mm · 0.20 mm first layer"
+        ],
+        [
+          "Nozzle / bed",
+          "220°C / 65°C · sliced targets"
+        ],
+        [
+          "Outer / inner walls",
+          "30 / 40 mm/s · speed limits"
+        ],
+        [
+          "Supports / brim",
+          "None / none"
+        ],
+        [
+          "Slicer estimate",
+          "2.86 g · 45 min 5 sec"
+        ]
+      ],
+      "estimateNote": "Completion and improvement are owner-reported. Actual time and mass are unmeasured. No photo or quantified movement/strength test has been supplied. The temperature adjustment below is a proposed experiment, not a completed print.",
+      "credit": "Derived from Loop Link Fidget Fabric by Sean Liang / Starry Odyssey (seanliang00) · CC BY-SA 4.0 · starryodyssey.com/design/loop-link-fidget-fabric. Modified geometry prepared with Codex: broader feet, chamfered flat-bottomed bars, sloped hole roofs, increased pitch and thickness. Printed on the Bambu Lab A1.",
+      "notes": [
+        [
+          "Quality",
+          "Owner reports a much better completed print, with fine cobweb-like threads between links. Free movement, strength and close-up surface quality have not yet been assessed."
+        ],
+        [
+          "Learned",
+          "The small revised patch improved the reported outcome, but several geometry and process variables changed together. Fine threads are consistent with stringing; their exact cause is unconfirmed. Retraction and wiping were already enabled."
+        ],
+        [
+          "Next time",
+          "Keep geometry and speeds unchanged. Test 215°C after the 220°C first layer, with the bed still at 65°C; compare stringing and joint strength. If needed, assess filament moisture and retraction separately. No further print has been started."
+        ]
+      ],
+      "photos": []
+    },
+    {
       "id": "loop-link-fabric-first-attempt",
       "number": "13",
       "name": "A fabric sample that came loose.",
@@ -54,7 +111,7 @@
         ],
         [
           "Next time",
-          "Clean the cooled plate, inspect for loose plastic around the nozzle, and begin with a 3×3 patch at the original link size—about 3.3 cm square. Visually check adhesion before a larger print. This smaller experiment is proposed, not yet printed."
+          "Follow-up: the plate was washed and a smaller, rebuilt 3×3 patch was printed with broader feet and gentler motion. The owner reports a much better result, with some fine stringing; the separate revised-sample entry records that outcome."
         ]
       ],
       "photos": [
