@@ -46,15 +46,15 @@
       "notes": [
         [
           "Quality",
-          "The original coaster has fine stringing and local tangled or incomplete links. A later diagnostic was cancelled during layer 10 after damage was reported by layer 8. The owner confirms its feet stayed attached while upper pieces broke. Neither is an accepted coaster."
+          "The full coaster had local damage. In the first diagnostic, upper pieces broke while feet stayed attached. The owner reports the completed 12-layer reinforced-post test looks much better and nothing seems broken. It is incomplete; the photos here show the earlier failed full print."
         ],
         [
           "Learned",
-          "The attached feet shift attention from bed adhesion to failure above the bases. Connector outer posts are only 0.8 mm thick and begin at layer 6. Weak bonding or nozzle contact remain hypotheses; the exact fracture location is unconfirmed. Extra crossbar cooling at layer 10 comes too late for this earlier damage."
+          "The first diagnostic broke before the layer-10 crossbars. The follow-up widened outer posts from 0.8 to 1.2 mm and their bases, preserving joint openings and process settings. The reported improvement supports reinforcement; fracture cause and strength remain unproved, and fresh slicing also changes travel order."
         ],
         [
           "Next time",
-          "Test reinforcement of the thin upper sections while preserving moving gaps and keeping print settings fixed. Inspect through the post and crossbar stages before another full coaster. If layers are separating, compare 220°C against 215°C separately for bonding versus stringing. These are planned experiments."
+          "Inspect the cooled diagnostic for cracked upper posts and poorly bonded crossbars. If those checks pass, try the reinforced geometry at full height with the same process. Full-height printing and free joint movement remain untested."
         ]
       ],
       "photos": [
