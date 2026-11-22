@@ -3,6 +3,65 @@
   "updated": "2026-11-22",
   "prints": [
     {
+      "id": "purple-ring-three-layer-test",
+      "number": "18",
+      "name": "Three layers stayed put.",
+      "object": "Purple Armour ring · adhesion diagnostic",
+      "date": "2026-11-22",
+      "category": "Modified downloaded design",
+      "description": "A short test after two purple ring failures. The original ring was cropped to three layers, preserving its thirteen separate contact areas and plate position. The owner confirmed the lines stayed on the plate; the close photo shows all sections still in place.",
+      "material": "Lilac Purple PLA Matte",
+      "settings": [
+        [
+          "Diagnostic height",
+          "0.52 mm · 3 layers"
+        ],
+        [
+          "Layer heights",
+          "0.20 + 0.16 + 0.16 mm"
+        ],
+        [
+          "Nozzle / bed",
+          "220°C first layer, then 215°C / 65°C"
+        ],
+        [
+          "First-layer speed",
+          "20 mm/s · verified toolpaths"
+        ],
+        [
+          "Supports / brim",
+          "None / none"
+        ],
+        [
+          "Slicer estimate",
+          "9 min 43 s · 0.28 g model + startup purge"
+        ]
+      ],
+      "estimateNote": "Printer completion at 3/3 layers and heater shutdown were independently verified. Height is from the prepared model; time and mass are slicer estimates, not physical measurements. Startup purge uses additional filament. The photo and owner observation support early adhesion, not measured bond strength or full-ring performance.",
+      "credit": "Derived from Print-in-Place Armour Spin Fidget Ring by Sean Liang / Starry Odyssey (seanliang00), CC BY-SA 4.0 · thingiverse.com/thing:7399195. Cropped above 0.52 mm for a sacrificial adhesion test; original XY scale and gaps retained. Printed on the Bambu Lab A1.",
+      "notes": [
+        [
+          "Quality",
+          "The centre ring and all twelve outer sections are present in their intended arrangement. No obvious lifted edge, displaced section or large tangle is visible. A few fine wisps remain in the gaps. This is an incomplete test, not a functioning fidget."
+        ],
+        [
+          "Learned",
+          "Purple formed these early layers after owner-confirmed head cleanup and inspection. This is positive adhesion evidence, but it does not isolate the earlier failure’s cause or prove later layers will hold. Cropping also makes the third layer a top surface."
+        ],
+        [
+          "Next time",
+          "Test one full-height purple ring with the same baseline settings and an explicit early inspection pause. Check later-layer lifting and, after cooling, free joint movement before returning to a batch."
+        ]
+      ],
+      "photos": [
+        {
+          "file": "purple-ring-three-layer-test.jpg",
+          "alt": "Thin purple centre ring and twelve outer sections in a circular arrangement on the textured plate, with the separate startup priming line below.",
+          "caption": "Three-layer diagnostic on the plate after printing. All thirteen sections are visible; full-height reliability remains untested."
+        }
+      ]
+    },
+    {
       "id": "fidget-batch-purple-ring-failure",
       "number": "17",
       "name": "Green worked. One purple ring tangled.",
@@ -41,7 +100,7 @@
           "41.42 g · 4 h 37 min 41 s"
         ]
       ],
-      "estimateNote": "Original batch: printer-reported FINISH did not establish physical success. Actual time and mass were not measured; green quality is owner-reported and the original purple result is photo-based. November 22 diagnostic: three layers, 0.52 mm; slicer estimate 9 min 43 s and 0.28 g model mass plus variable startup purge. Completion and heater shutdown were verified; detailed final inspection is pending.",
+      "estimateNote": "Original batch: printer-reported FINISH did not establish physical success. Actual time and mass were not measured; green quality is owner-reported and the original purple result is photo-based. The subsequent November 22 three-layer diagnostic passed its early-adhesion visual check; it has its own newer entry and photo.",
       "credit": "Tiny Spiral Passthrough (thingiverse.com/thing:7354874) and Armour Spin Fidget Ring (thingiverse.com/thing:7399195) by Sean Liang / Starry Odyssey (seanliang00), CC BY-SA 4.0. Slider modified with Codex to remove its centre bar; original guide surfaces and model scale retained. Printed on the Bambu Lab A1.",
       "notes": [
         [
@@ -54,7 +113,7 @@
         ],
         [
           "Next time",
-          "Inspect all thirteen thin sections before removal. If the diagnostic is acceptable, try one complete purple ring with an explicit early inspection pause before returning to a batch. Check free movement only on a successful, cooled full ring."
+          "The subsequent three-layer diagnostic passed its early-adhesion visual check. Next, test one complete purple ring with an explicit early inspection pause before returning to a batch. Check free movement only after a successful, cooled full print."
         ]
       ],
       "photos": [
