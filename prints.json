@@ -1,6 +1,6 @@
 {
   "title": "Huzaifa’s Print Journal",
-  "updated": "2026-11-21",
+  "updated": "2026-11-22",
   "prints": [
     {
       "id": "fidget-batch-purple-ring-failure",
@@ -41,27 +41,27 @@
           "41.42 g · 4 h 37 min 41 s"
         ]
       ],
-      "estimateNote": "The printer reports FINISH, 562/562 layer events and no error, but this does not establish physical success. Actual time and mass were not measured. Green quality is owner-reported; purple observations are photo-based. Failure timing, adhesion and surviving joint motion are unconfirmed.",
+      "estimateNote": "Original batch: printer-reported FINISH did not establish physical success. Actual time and mass were not measured; green quality is owner-reported and the original purple result is photo-based. November 22 diagnostic: three layers, 0.52 mm; slicer estimate 9 min 43 s and 0.28 g model mass plus variable startup purge. Completion and heater shutdown were verified; detailed final inspection is pending.",
       "credit": "Tiny Spiral Passthrough (thingiverse.com/thing:7354874) and Armour Spin Fidget Ring (thingiverse.com/thing:7399195) by Sean Liang / Starry Odyssey (seanliang00), CC BY-SA 4.0. Slider modified with Codex to remove its centre bar; original guide surfaces and model scale retained. Printed on the Bambu Lab A1.",
       "notes": [
         [
           "Quality",
-          "Green and the purple spiral/slider pair were reported okay. One purple Armour ring was loose/displaced and failed. The gentler purple retry also failed: the owner reported plastic stuck to the head, not on the plate. It was stopped at layer 31 before either new spiral pair began. The photo shows the first attempt."
+          "Green parts and the purple spiral/slider pair were reported okay. One purple ring failed twice; the retry collected plastic on the head and was stopped before the new pairs began. After owner-confirmed head cleanup and inspection, the November 22 three-layer purple diagnostic completed, and the owner confirmed its lines stayed on the plate. The photo shows the original failure."
         ],
         [
           "Learned",
-          "The retry carried forward the mat’s gentler motion and 215°C later layers, but those changes did not prevent recurrence. Owner observation established plastic accumulating on the head; the low camera view did not establish adhesion. The initiating cause and hotend condition remain unconfirmed."
+          "Gentler motion and 215°C later layers did not prevent the full retry failure. The short diagnostic now supports early attachment after cleanup and inspection, but does not identify the original cause or prove full-height reliability. Its third layer is an artificial top surface. The head obscured the camera view during printing; direct observation mattered."
         ],
         [
           "Next time",
-          "Inspect the accumulated plastic and hotend before cleaning or reheating. Do not restart the failed file. After resolving the physical problem, validate a small, observable first-layer test before another full ring or batch. Check joint movement only after a successful cooled print."
+          "Inspect all thirteen thin sections before removal. If the diagnostic is acceptable, try one complete purple ring with an explicit early inspection pause before returning to a batch. Check free movement only on a successful, cooled full ring."
         ]
       ],
       "photos": [
         {
           "file": "fidget-batch-purple-ring-failure.jpg",
           "alt": "Purple spiral, open-centre slider and a formed ring near the back of the build plate, with a badly tangled second ring and loose strands nearer the front.",
-          "caption": "First eight-piece attempt: one purple ring failed severely. The later retry also failed, as reported by the owner; no retry photograph is shown here."
+          "caption": "First eight-piece attempt: one purple ring failed severely. Neither the later failed retry nor the November 22 three-layer diagnostic is pictured here."
         }
       ]
     },
