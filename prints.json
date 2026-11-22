@@ -1,7 +1,70 @@
 {
   "title": "Huzaifa’s Print Journal",
-  "updated": "2026-10-18",
+  "updated": "2026-11-21",
   "prints": [
+    {
+      "id": "fidget-batch-purple-ring-failure",
+      "number": "17",
+      "name": "Green worked. One purple ring tangled.",
+      "object": "Eight-piece fidget batch",
+      "date": "2026-11-21",
+      "category": "Downloaded & modified designs",
+      "description": "Two open-centre sliders, two spirals and four Armour Spin rings, split equally between green and purple. The owner reports the green parts are okay. The purple photo shows one severely damaged ring and loose strands; the other three purple pieces look substantially formed, with function still unconfirmed.",
+      "material": "Green & Lilac Purple PLA Matte",
+      "settings": [
+        [
+          "Batch",
+          "1 slider + 1 spiral + 2 rings per colour"
+        ],
+        [
+          "Layer height",
+          "0.16 mm · 0.20 mm first layer"
+        ],
+        [
+          "Nozzle / bed",
+          "220°C / 65°C · sliced targets"
+        ],
+        [
+          "Walls / infill",
+          "3 walls · 15% gyroid"
+        ],
+        [
+          "Supports / brim",
+          "None / none"
+        ],
+        [
+          "Print order",
+          "Green group, then purple group · one colour change"
+        ],
+        [
+          "Slicer estimate",
+          "41.42 g · 4 h 37 min 41 s"
+        ]
+      ],
+      "estimateNote": "The printer reports FINISH, 562/562 layer events and no error, but this does not establish physical success. Actual time and mass were not measured. Green quality is owner-reported; purple observations are photo-based. Failure timing, adhesion and surviving joint motion are unconfirmed.",
+      "credit": "Tiny Spiral Passthrough (thingiverse.com/thing:7354874) and Armour Spin Fidget Ring (thingiverse.com/thing:7399195) by Sean Liang / Starry Odyssey (seanliang00), CC BY-SA 4.0. Slider modified with Codex to remove its centre bar; original guide surfaces and model scale retained. Printed on the Bambu Lab A1.",
+      "notes": [
+        [
+          "Quality",
+          "Green is okay according to the owner. One purple ring failed badly; the other ring, slider and spiral appear formed but their movement and finish need checking."
+        ],
+        [
+          "Learned",
+          "A completed job with no printer error can still contain a failed part. Local detachment or displacement is a leading hypothesis; the photo cannot distinguish weak grip, a nozzle strike or breakage. Identical geometry alone does not guarantee identical results across the plate."
+        ],
+        [
+          "Next time",
+          "Planned: inspect the surviving purple pieces, wash and dry the plate, then retry only the failed ring at the centre with a slower first layer. Keep the moving gaps unchanged and check the first layers. No retry has been started."
+        ]
+      ],
+      "photos": [
+        {
+          "file": "fidget-batch-purple-ring-failure.jpg",
+          "alt": "Purple spiral, open-centre slider and a formed ring near the back of the build plate, with a badly tangled second ring and loose strands nearer the front.",
+          "caption": "Owner photo: one purple ring failed severely. The other pieces need a motion check; this photo does not reveal the failure sequence."
+        }
+      ]
+    },
     {
       "id": "loop-link-coaster-first-result",
       "number": "16",
