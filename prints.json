@@ -37,7 +37,7 @@
           "9 min 43 s · 0.28 g model + startup purge"
         ]
       ],
-      "estimateNote": "Printer completion at 3/3 layers and heater shutdown were independently verified. Height is from the prepared model; time and mass are slicer estimates, not physical measurements. Startup purge uses additional filament. The photo and owner observation support early adhesion, not measured bond strength or full-ring performance.",
+      "estimateNote": "Printer completion at 3/3 layers and heater shutdown were independently verified. Height is from the prepared model; time and mass are slicer estimates, not physical measurements. Startup purge uses additional filament. The photo and owner observation support early adhesion, not measured bond strength or full-ring performance. Follow-up: a full-height ring file subsequently failed its planned inspection after three completed layers; the owner reported lifting or tangling, and the job was stopped without resuming. That attempt is not pictured.",
       "credit": "Derived from Print-in-Place Armour Spin Fidget Ring by Sean Liang / Starry Odyssey (seanliang00), CC BY-SA 4.0 · thingiverse.com/thing:7399195. Cropped above 0.52 mm for a sacrificial adhesion test; original XY scale and gaps retained. Printed on the Bambu Lab A1.",
       "notes": [
         [
@@ -46,18 +46,18 @@
         ],
         [
           "Learned",
-          "Purple formed these early layers after owner-confirmed head cleanup and inspection. This is positive adhesion evidence, but it does not isolate the earlier failure’s cause or prove later layers will hold. Cropping also makes the third layer a top surface."
+          "Purple formed these early layers after owner-confirmed head cleanup and inspection. However, the subsequent full-height file failed its three-layer inspection: the owner reported lifting or tangling. The failure mechanism and timing remain unknown. Cropping makes the diagnostic’s third layer a top surface, so the two jobs are not identical tests."
         ],
         [
           "Next time",
-          "Test one full-height purple ring with the same baseline settings and an explicit early inspection pause. Check later-layer lifting and, after cooling, free joint movement before returning to a batch."
+          "The full-ring attempt was stopped at the inspection pause, with heater shutdown verified. Inspect the undisturbed plate and nozzle before selecting another controlled test. Do not return to a batch until attachment and cooled joint movement are demonstrated."
         ]
       ],
       "photos": [
         {
           "file": "purple-ring-three-layer-test.jpg",
           "alt": "Thin purple centre ring and twelve outer sections in a circular arrangement on the textured plate, with the separate startup priming line below.",
-          "caption": "Three-layer diagnostic on the plate after printing. All thirteen sections are visible; full-height reliability remains untested."
+          "caption": "Successful three-layer diagnostic, before the later full-ring attempt failed its inspection. This photo does not show that subsequent failure."
         }
       ]
     },
@@ -113,7 +113,7 @@
         ],
         [
           "Next time",
-          "The subsequent three-layer diagnostic passed its early-adhesion visual check. Next, test one complete purple ring with an explicit early inspection pause before returning to a batch. Check free movement only after a successful, cooled full print."
+          "The subsequent three-layer diagnostic passed its visual check, but a full-height file then failed its planned three-layer inspection and was stopped. Inspect that failure before choosing another test; full-ring reliability and free movement remain unproven."
         ]
       ],
       "photos": [
