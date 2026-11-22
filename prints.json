@@ -46,15 +46,15 @@
       "notes": [
         [
           "Quality",
-          "Green is okay according to the owner. One purple ring failed badly; the other ring, slider and spiral appear formed but their movement and finish need checking."
+          "Green is okay according to the owner, and the purple spiral and matching slider/ring look okay. One purple Armour ring failed badly and was loose or displaced before handling. Free movement of the surviving pieces is not yet explicitly confirmed."
         ],
         [
           "Learned",
-          "A completed job with no printer error can still contain a failed part. Local detachment or displacement is a leading hypothesis; the photo cannot distinguish weak grip, a nozzle strike or breakage. Identical geometry alone does not guarantee identical results across the plate."
+          "Displacement is confirmed, but its initial trigger remains unknown. Earlier lilac mat trials improved with gentler motion and 215°C after the first layer; this batch mistakenly reused the older 220°C profile and faster motion. The mat also had a separate upper-post fracture problem, so matching colour does not establish matching causes."
         ],
         [
           "Next time",
-          "Planned: inspect the surviving purple pieces, wash and dry the plate, then retry only the failed ring at the centre with a slower first layer. Keep the moving gaps unchanged and check the first layers. No retry has been started."
+          "Prepared, not started: a purple replacement ring first, then one additional spiral/slider pair per colour. Use the mat’s gentler motion and purple 220°C first layer then 215°C, preserving moving gaps. Start on a clean, dry plate and inspect early layers and the completed ring before accepting it."
         ]
       ],
       "photos": [
